@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>todo</title>
+</head>
+<body>
+    <input type="text" placeholder="Type something..." id="todo-Input">
+    <button type="button" onclick="getInputValue();">add</button>
+    <p id="todo-Contant"></p>
+    <button type="button" onclick="deleteTodo()">del</button>
+    <script>
+        function getInputValue(){
+            // Selecting the input element and get its value 
+         let inputVal = document.getElementById('todo-Input').value;
+            
+            // Displaying the value
+            // console.log(inputVal)
+           let userWrite = document.getElementById('todo-Contant').innerHTML = inputVal;
+        }
+
+        // add button in userWrite 
+function deleteTodo (){
+
+    document.getElementById('todo-Contant').remove();
+
+}
+
+    </script>
+</body>
+</html>

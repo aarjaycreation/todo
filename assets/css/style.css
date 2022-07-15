@@ -1,0 +1,18 @@
+.allbutton{
+    height: 2rem;
+    width: 4rem;
+    border-radius: 0.4rem;
+    border: 1px solid var(--clr-primary-400);
+    background-color:transparent;
+}
+
+
+.content{
+    height: 2.8rem;
+    width: 16rem;
+    border: 2px solid var(--clr-primary-400);
+    border-radius: 0.4rem;
+    background-color: #fff;
+}
+
+/* ${document.querySelector("#newtask input").value} */
